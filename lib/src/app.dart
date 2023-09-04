@@ -17,7 +17,16 @@ class App extends GetView<BottomNavController> {
             width: 300,
           ),
           actions: [
-            GestureDetector(onTap: ,)
+            //옵션버튼
+            GestureDetector(
+              onTap: () {},
+              child: Padding(
+                padding: const EdgeInsets.all(15.0),
+                child: ImageData(
+                  path: IconsPath.dm,
+                ),
+              ),
+            )
           ],
         ),
         body: IndexedStack(

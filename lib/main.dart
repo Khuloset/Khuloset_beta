@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:khuloset_beta/src/app.dart';
 import 'package:khuloset_beta/src/binding/init_bindings.dart';
-import 'package:khuloset_beta/src/controller/bottom_nav_controller.dart';
 
 void main() {
   runApp(const MyApp());
