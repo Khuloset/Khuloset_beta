@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
-options: "1ce6c8cce8337101021656f0a4b667a8a85c9e4dc113d207cee0398f274cbac7"
-build_start_time: [1693214737, 368305000]
-build_end_time: [1693214737, 398349000]
-inputs:
-  "/Users/gwshin/.pub-cache/hosted/pub.dev/connectivity_macos-0.2.1+2/macos/Classes/ConnectivityPlugin.swift": !private [1690369835, 808842082]

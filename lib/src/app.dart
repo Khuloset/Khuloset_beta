@@ -12,8 +12,8 @@ class App extends GetView<BottomNavController> {
       () => Scaffold(
         backgroundColor: Colors.blueGrey,
         appBar: AppBar(
-          title: ImageData(path: ,),
-        ),
+            //title: ImageData(path: ,),
+            ),
         body: IndexedStack(
           index: controller.pageIndex.value,
           children: [
