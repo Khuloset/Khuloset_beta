@@ -27,30 +27,30 @@
 		1A0824E6803C6850270457DA7BFE78BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30453446C5310EA114B978294858C9A5 /* Foundation.framework */; };
 		203017B7465B7DB9C7BFFDA30D474297 /* Reachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7561A86BD3EFB77ACDBF78B1657902BF /* Reachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2401C748AE4FF4DEE2BCD2FE45495109 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30453446C5310EA114B978294858C9A5 /* Foundation.framework */; };
+		31F9D6622B3B5883812B8B1E5F2C59CE /* PathProviderPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258DF496A4AB07E9E20C33CDC3AB8506 /* PathProviderPlugin.swift */; };
 		347F23B3CF50540924E48306C789F80D /* connectivity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23241CC2473A72EC87675AC0CA7A369E /* connectivity-dummy.m */; };
 		36CCBFE0EF0D4023688392ED90EB68DD /* flutter_keyboard_visibility-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B17B26BC113A4CEFC37ADB12FDD517 /* flutter_keyboard_visibility-dummy.m */; };
 		3B8D48B0108FA4EE9DB4A9C1DA3609EB /* connectivity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB96DCE1169F9A1E37C0C433CD56C83 /* connectivity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E8CE3C09DC4712178F6B045601C273D /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E794494AB90477BA94C681E994ADF341 /* Pods-Runner-dummy.m */; };
 		55D583A0985BD4CD082EEDD19EF4AE52 /* fort-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A9A3DB033F04E336BC594098AEE8D8 /* fort-dummy.m */; };
-		5A2C249266BA27F5F78EC2C719A81CDE /* path_provider_foundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 455A351AA5E41C8B7F6F3E63B073190C /* path_provider_foundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A2C249266BA27F5F78EC2C719A81CDE /* path_provider_foundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AB60493FB4EACE4697AA18FE3EB2E34 /* path_provider_foundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D2057BB03C3519B7AB9D3A5FEFAE833 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30453446C5310EA114B978294858C9A5 /* Foundation.framework */; };
 		63C106AEFFDD7A7B9E24CF553663A1F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30453446C5310EA114B978294858C9A5 /* Foundation.framework */; };
 		64DC8F018999BDCC37DC5B3680D16270 /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0D231DB29D3B6B558743C246A76299 /* Reachability-dummy.m */; };
 		6A350F4D424CFD8648F60AA1EB2E7D13 /* FlutterKeyboardVisibilityPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 8708889A5F7749A2F59F15BC147BB82C /* FlutterKeyboardVisibilityPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B1E62EB116E7D7A6252B6F079890306 /* Pods-RunnerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DB54C128E3D88C0C9C7DDEA475ED7 /* Pods-RunnerTests-dummy.m */; };
+		6DB1D2542F6DC6DC388282FEBFBC7136 /* messages.g.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F373087365212AD5DF6093859F725C /* messages.g.swift */; };
 		6ED02E99690B29DC8FD8A9BEDBFD68AD /* FortPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 356EA2EA84F2CE7A2345B2D71F8A082B /* FortPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FF163925DCC5F1EA65CC12369983090 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9487795E890AAC4F9EB14CF011926214 /* Reachability.m */; };
 		72B445174190E6DDB16592E5432CCE30 /* fort-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A9534F2AE7B3751CCA9EA3148FF9DA4 /* fort-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75256219A6DCF0B5F286C4FAEBC68163 /* path_provider_foundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 224EFAC30683C44B0CC5E65334CFD6BB /* path_provider_foundation-dummy.m */; };
-		7E8E1201D91AFEA18A9EF2090B4334CD /* shared_preferences_foundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CEA0A3A44ADCF8473FC4F7C44424E94 /* shared_preferences_foundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8362A230C8919A1F8BFD28441B3300E3 /* PathProviderPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FA9EAC369863076BE171A5A453DF19 /* PathProviderPlugin.swift */; };
-		8859CE0A52693F5638735E5007A17640 /* messages.g.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0960B746D58AE29711797B3E3F43784C /* messages.g.swift */; };
+		75256219A6DCF0B5F286C4FAEBC68163 /* path_provider_foundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 149F89E8EA046B176FA9DFFA279C49E7 /* path_provider_foundation-dummy.m */; };
+		7E8E1201D91AFEA18A9EF2090B4334CD /* shared_preferences_foundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6632662CC50E28ABBBAF2E2E30966794 /* shared_preferences_foundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C06CD606A7A551108259A3EFFD876F2 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C17EA3A69CB4BBBA3B676CBD70A135 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A072FC5E864F776AC927FF474275E36 /* SharedPreferencesPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE76BBCBDA49CA025C96BAE345C836D /* SharedPreferencesPlugin.swift */; };
 		9C6E3C12E2AFE3F2893A8BCC825F813A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30453446C5310EA114B978294858C9A5 /* Foundation.framework */; };
-		A4206A78CFFFEF2955D07EEC22529B95 /* messages.g.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5AF9B21B94CF5BC8F9F1C543E1ECB9 /* messages.g.swift */; };
-		A4F4B47C0288F7B73A09BB3C942BBC99 /* SharedPreferencesPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1479ED6EE613599E3B47FF5353B0798 /* SharedPreferencesPlugin.swift */; };
 		B777C3813A408E2B9F72F861374EAC6A /* FLTConnectivityPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9780E0FB50D6CCE02E20F86FB92F97 /* FLTConnectivityPlugin.m */; };
-		CB304644E43CAD6B13C964EC96E78E94 /* shared_preferences_foundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A10C6F47EB4FD72A3668B34A4E881333 /* shared_preferences_foundation-dummy.m */; };
+		C7778BC57A550727AA5B298F3C515646 /* messages.g.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A54D0885D5C3E3B1A14184956D94E30 /* messages.g.swift */; };
+		CB304644E43CAD6B13C964EC96E78E94 /* shared_preferences_foundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA7E663ECAF51B27F2A84E70E588C5 /* shared_preferences_foundation-dummy.m */; };
 		D2BE6C73900A13AD7A25313F6D7A24FD /* flutter_keyboard_visibility-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C73818D9CF1315136347D797CC4D695 /* flutter_keyboard_visibility-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4AC449B66B63F0BCA543828E3269161 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30453446C5310EA114B978294858C9A5 /* Foundation.framework */; };
 		D4FF380857AC9F634C413113FFEC804B /* SwiftFortPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCEBC0C6A6449FF70C78942BCD24CDA /* SwiftFortPlugin.swift */; };
@@ -163,44 +163,40 @@
 /* Begin PBXFileReference section */
 		03E8AD2E8B75443E12D3D3BD12A9900E /* Pods-RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		04444E1EEB36FBB090DE199F5D72E1DD /* FLTConnectivityPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLTConnectivityPlugin.h; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/connectivity-3.0.6/ios/Classes/FLTConnectivityPlugin.h"; sourceTree = "<group>"; };
-		0960B746D58AE29711797B3E3F43784C /* messages.g.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = messages.g.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/path_provider_foundation-2.3.0/darwin/Classes/messages.g.swift"; sourceTree = "<group>"; };
-		09FC93984F3D78BD37DC476EDA93B753 /* shared_preferences_foundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = shared_preferences_foundation.modulemap; sourceTree = "<group>"; };
+		098B494E5D08D7EA4BADD813099C3891 /* shared_preferences_foundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = shared_preferences_foundation.podspec; path = "../../../../../../../../.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.3.4/darwin/shared_preferences_foundation.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0AFB643DA4919253F749E2836A5AAFDC /* Pods-Runner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-Info.plist"; sourceTree = "<group>"; };
+		0E2B9B5933C2E189A04B2118D2EB6C2B /* path_provider_foundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = path_provider_foundation.modulemap; sourceTree = "<group>"; };
 		0E72ACBA9E561320D79FC29DCF5DC69E /* flutter_keyboard_visibility-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_keyboard_visibility-prefix.pch"; sourceTree = "<group>"; };
 		0E9780E0FB50D6CCE02E20F86FB92F97 /* FLTConnectivityPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLTConnectivityPlugin.m; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/connectivity-3.0.6/ios/Classes/FLTConnectivityPlugin.m"; sourceTree = "<group>"; };
 		11AA7018F95317D959D9D2E76CBB2377 /* Pods-RunnerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RunnerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		13527F6A88EDF09A28F8999A2C72E8F7 /* Reachability.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.release.xcconfig; sourceTree = "<group>"; };
-		165D0A5AE859F21FF85693E3866E72E4 /* path_provider_foundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = path_provider_foundation.podspec; path = "../../../../../../../../.pub-cache/hosted/pub.dev/path_provider_foundation-2.3.0/darwin/path_provider_foundation.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		149F89E8EA046B176FA9DFFA279C49E7 /* path_provider_foundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "path_provider_foundation-dummy.m"; sourceTree = "<group>"; };
 		18DE96DC511BD1CE643E8E9A8CE72374 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		1A9534F2AE7B3751CCA9EA3148FF9DA4 /* fort-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fort-umbrella.h"; sourceTree = "<group>"; };
 		1B136F41D5B5FAE96EA576E768A5771D /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
-		1F754CA900EAAF52AB03F3CB6167993B /* shared_preferences_foundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shared_preferences_foundation.release.xcconfig; sourceTree = "<group>"; };
-		224EFAC30683C44B0CC5E65334CFD6BB /* path_provider_foundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "path_provider_foundation-dummy.m"; sourceTree = "<group>"; };
 		23241CC2473A72EC87675AC0CA7A369E /* connectivity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "connectivity-dummy.m"; sourceTree = "<group>"; };
+		258DF496A4AB07E9E20C33CDC3AB8506 /* PathProviderPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathProviderPlugin.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/path_provider_foundation-2.3.1/darwin/Classes/PathProviderPlugin.swift"; sourceTree = "<group>"; };
 		27512F7C3DBBF17B897B6F953F0F160B /* flutter_keyboard_visibility.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = flutter_keyboard_visibility.podspec; path = "../../../../../../../../.pub-cache/hosted/pub.dev/flutter_keyboard_visibility-5.4.1/ios/flutter_keyboard_visibility.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		285BD5E8F08286CEEB2F3B5C3B666CF5 /* shared_preferences_foundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = shared_preferences_foundation.modulemap; sourceTree = "<group>"; };
 		2ADEA2CF1ED1CDD085FC403421B4EAC7 /* Reachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Reachability.modulemap; sourceTree = "<group>"; };
-		2D66B2E8FC7C1105F3B73F33085673F2 /* shared_preferences_foundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = shared_preferences_foundation.podspec; path = "../../../../../../../../.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.3.3/darwin/shared_preferences_foundation.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2EAC6A54EAEDE553050EF4787FB6EBC1 /* fort.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = fort.release.xcconfig; sourceTree = "<group>"; };
 		30453446C5310EA114B978294858C9A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34EF96FF6AC15AFFF6BB3DC69EDCE433 /* flutter_keyboard_visibility-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "flutter_keyboard_visibility-Info.plist"; sourceTree = "<group>"; };
 		356EA2EA84F2CE7A2345B2D71F8A082B /* FortPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FortPlugin.h; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/fort-0.1.2/ios/Classes/FortPlugin.h"; sourceTree = "<group>"; };
 		35AA27FC9BB9805170EE17E8F84EF155 /* FortPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FortPlugin.m; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/fort-0.1.2/ios/Classes/FortPlugin.m"; sourceTree = "<group>"; };
-		38FA9EAC369863076BE171A5A453DF19 /* PathProviderPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathProviderPlugin.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/path_provider_foundation-2.3.0/darwin/Classes/PathProviderPlugin.swift"; sourceTree = "<group>"; };
 		3AAAFEDE17FCDA1D6E7AA93E5D893CEC /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
 		3F9CC02376B2B124DAF84B42B7F3755B /* flutter_keyboard_visibility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = flutter_keyboard_visibility.debug.xcconfig; sourceTree = "<group>"; };
 		400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		417CB8A96E8165537D0A9C6C348C1393 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../.pub-cache/hosted/pub.dev/flutter_keyboard_visibility-5.4.1/LICENSE"; sourceTree = "<group>"; };
-		455A351AA5E41C8B7F6F3E63B073190C /* path_provider_foundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "path_provider_foundation-umbrella.h"; sourceTree = "<group>"; };
-		45AB964736B0C0663B67F1EB8C6475DF /* path_provider_foundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = path_provider_foundation.release.xcconfig; sourceTree = "<group>"; };
 		499E3722E8DACDC2AAA6C15AD1796520 /* Pods-Runner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Runner-umbrella.h"; sourceTree = "<group>"; };
 		4D3DB54C128E3D88C0C9C7DDEA475ED7 /* Pods-RunnerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RunnerTests-dummy.m"; sourceTree = "<group>"; };
 		51E1D826A7B55722F5A9684E0B6C29A6 /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5744E80DFD07D3C8DE21748C37747A43 /* fort.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = fort.modulemap; sourceTree = "<group>"; };
-		5C891814C9D161DE7C97859E9B80CE7D /* path_provider_foundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "path_provider_foundation-prefix.pch"; sourceTree = "<group>"; };
+		6632662CC50E28ABBBAF2E2E30966794 /* shared_preferences_foundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "shared_preferences_foundation-umbrella.h"; sourceTree = "<group>"; };
 		669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Runner"; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		68855658E85FC5168230D9138295F262 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.3.3/LICENSE"; sourceTree = "<group>"; };
 		692893D1FB0F3796F029835876D3D831 /* fort.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = fort.podspec; path = "../../../../../../../../.pub-cache/hosted/pub.dev/fort-0.1.2/ios/fort.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6C3345B1B3CAEDF5B03B1F731FDC492E /* Pods-RunnerTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RunnerTests"; path = Pods_RunnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D6E81286D99498D321F36B2B8E2750F /* path_provider_foundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "path_provider_foundation-prefix.pch"; sourceTree = "<group>"; };
 		6E72CF8614B809C8EBC86431859A7523 /* connectivity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = connectivity.modulemap; sourceTree = "<group>"; };
 		6EA680FC33AA86A55C73D0768FB721BF /* connectivity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "connectivity-prefix.pch"; sourceTree = "<group>"; };
 		703767D9B56007D76D1279306DD2005F /* flutter_keyboard_visibility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = flutter_keyboard_visibility.release.xcconfig; sourceTree = "<group>"; };
@@ -208,39 +204,44 @@
 		750A18F82234313F2D95A07DCC5E34AB /* connectivity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = connectivity.debug.xcconfig; sourceTree = "<group>"; };
 		7561A86BD3EFB77ACDBF78B1657902BF /* Reachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-umbrella.h"; sourceTree = "<group>"; };
 		773BFCE41424EB8EBB72EF3F6A5FB719 /* Pods-Runner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-frameworks.sh"; sourceTree = "<group>"; };
-		775DE353B8A5D0570E94ACB6E3132D96 /* shared_preferences_foundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shared_preferences_foundation.debug.xcconfig; sourceTree = "<group>"; };
 		7791115506E205C2AAE8B03ABBBB5575 /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
 		79F83F4D505FA40C1CD18A8029181D59 /* Pods-RunnerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RunnerTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7CEA0A3A44ADCF8473FC4F7C44424E94 /* shared_preferences_foundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "shared_preferences_foundation-umbrella.h"; sourceTree = "<group>"; };
-		7DA2B624852565CA6890F76EAD60C339 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../.pub-cache/hosted/pub.dev/path_provider_foundation-2.3.0/LICENSE"; sourceTree = "<group>"; };
 		7DC01B0C69B6AF18D10A3EEC77B4548B /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
+		7ECA7E663ECAF51B27F2A84E70E588C5 /* shared_preferences_foundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "shared_preferences_foundation-dummy.m"; sourceTree = "<group>"; };
+		852B71F176E5044E662DB79812FF14E2 /* path_provider_foundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = path_provider_foundation.podspec; path = "../../../../../../../../.pub-cache/hosted/pub.dev/path_provider_foundation-2.3.1/darwin/path_provider_foundation.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8708889A5F7749A2F59F15BC147BB82C /* FlutterKeyboardVisibilityPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlutterKeyboardVisibilityPlugin.h; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_keyboard_visibility-5.4.1/ios/Classes/FlutterKeyboardVisibilityPlugin.h"; sourceTree = "<group>"; };
 		89B17B26BC113A4CEFC37ADB12FDD517 /* flutter_keyboard_visibility-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "flutter_keyboard_visibility-dummy.m"; sourceTree = "<group>"; };
+		8A54D0885D5C3E3B1A14184956D94E30 /* messages.g.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = messages.g.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/path_provider_foundation-2.3.1/darwin/Classes/messages.g.swift"; sourceTree = "<group>"; };
+		8CE76BBCBDA49CA025C96BAE345C836D /* SharedPreferencesPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SharedPreferencesPlugin.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.3.4/darwin/Classes/SharedPreferencesPlugin.swift"; sourceTree = "<group>"; };
 		93C6A45C6E4792269BE9BE0073839BF0 /* shared_preferences_foundation */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = shared_preferences_foundation; path = shared_preferences_foundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9452BAEC2D175502FC0CCD9F536D1792 /* path_provider_foundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "path_provider_foundation-Info.plist"; sourceTree = "<group>"; };
 		9487795E890AAC4F9EB14CF011926214 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		95AEC45023DC633BFEBFE200DD4C81FC /* flutter_keyboard_visibility */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = flutter_keyboard_visibility; path = flutter_keyboard_visibility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB60493FB4EACE4697AA18FE3EB2E34 /* path_provider_foundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "path_provider_foundation-umbrella.h"; sourceTree = "<group>"; };
 		9C73818D9CF1315136347D797CC4D695 /* flutter_keyboard_visibility-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_keyboard_visibility-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E9B12BCE5540D02A80250C3EC16D399 /* Pods-RunnerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RunnerTests-umbrella.h"; sourceTree = "<group>"; };
-		A10C6F47EB4FD72A3668B34A4E881333 /* shared_preferences_foundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "shared_preferences_foundation-dummy.m"; sourceTree = "<group>"; };
 		A3B9BD78F61B7DFE2984A2E345047413 /* Reachability.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.debug.xcconfig; sourceTree = "<group>"; };
+		A8D398873E2BE200F7465AFAB0C0F2C0 /* shared_preferences_foundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "shared_preferences_foundation-prefix.pch"; sourceTree = "<group>"; };
 		AB29BA624A975573A9C284F8A3D19ECE /* connectivity */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = connectivity; path = connectivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8FE152530FBDCE460186B326C1A8FB /* Pods-RunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RunnerTests.release.xcconfig"; sourceTree = "<group>"; };
 		AE157A33FEF959A214796BFF348717F6 /* path_provider_foundation */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = path_provider_foundation; path = path_provider_foundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B00A5ECAED4CA0C16FF7C65365BC0334 /* Pods-RunnerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RunnerTests-Info.plist"; sourceTree = "<group>"; };
 		B0BD57AB3672E53828D11C2A3368023A /* Pods-RunnerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RunnerTests.modulemap"; sourceTree = "<group>"; };
-		B1479ED6EE613599E3B47FF5353B0798 /* SharedPreferencesPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SharedPreferencesPlugin.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.3.3/darwin/Classes/SharedPreferencesPlugin.swift"; sourceTree = "<group>"; };
 		B6C17EA3A69CB4BBBA3B676CBD70A135 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		B703785507B22BAF0B800737429577EC /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
-		BF73982FDB63945CEF688D1957EFD87F /* path_provider_foundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = path_provider_foundation.debug.xcconfig; sourceTree = "<group>"; };
+		B81E4AE8C73A57FFBF2D594E26733EBB /* path_provider_foundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "path_provider_foundation-Info.plist"; sourceTree = "<group>"; };
 		C24C1A035F22D24883C6F1876F274C6F /* Pods-Runner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Runner.modulemap"; sourceTree = "<group>"; };
+		C40FDCA4B4F9395F07AAD74189B01063 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../.pub-cache/hosted/pub.dev/path_provider_foundation-2.3.1/LICENSE"; sourceTree = "<group>"; };
 		C50FD10CD19FF6999637BA5ECAF1681B /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
 		C52B7C1C364F816E8D3530AE73A50961 /* flutter_keyboard_visibility.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = flutter_keyboard_visibility.modulemap; sourceTree = "<group>"; };
+		C79F0CD09A76290FA968570DE13268EE /* shared_preferences_foundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shared_preferences_foundation.debug.xcconfig; sourceTree = "<group>"; };
+		C9F373087365212AD5DF6093859F725C /* messages.g.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = messages.g.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.3.4/darwin/Classes/messages.g.swift"; sourceTree = "<group>"; };
 		CC05C822CBA4EAEED51B7B91C5A728F7 /* fort */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = fort; path = fort.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD681A39710155E4B8108CAD439D54B0 /* Reachability-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Reachability-Info.plist"; sourceTree = "<group>"; };
 		CE86D2A8AC75F45519E141A4A17A74FC /* FlutterKeyboardVisibilityPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlutterKeyboardVisibilityPlugin.m; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_keyboard_visibility-5.4.1/ios/Classes/FlutterKeyboardVisibilityPlugin.m"; sourceTree = "<group>"; };
 		D37841605E6916C0B439FAD547091C50 /* fort-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "fort-Info.plist"; sourceTree = "<group>"; };
+		D74B7F38581F89D22C937660561EC26B /* shared_preferences_foundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shared_preferences_foundation.release.xcconfig; sourceTree = "<group>"; };
+		D85FA0A062BE387B3E4F823CA9D41FE8 /* shared_preferences_foundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "shared_preferences_foundation-Info.plist"; sourceTree = "<group>"; };
 		DF739F4029C7A6C572EA1C210E221EED /* connectivity-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "connectivity-Info.plist"; sourceTree = "<group>"; };
 		E2CE91DEBEC6CD922A0DB16C55C0AC3F /* connectivity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = connectivity.release.xcconfig; sourceTree = "<group>"; };
 		E3A9A3DB033F04E336BC594098AEE8D8 /* fort-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "fort-dummy.m"; sourceTree = "<group>"; };
@@ -248,17 +249,16 @@
 		E736E0C9C5B73D27B8865E363E2108AC /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
 		E794494AB90477BA94C681E994ADF341 /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
 		E7C11F5463A21C12051B2F2BB2C17C9C /* connectivity.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = connectivity.podspec; path = "../../../../../../../../.pub-cache/hosted/pub.dev/connectivity-3.0.6/ios/connectivity.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E7C1DC9CFCFAE88EB8C3D967A98F45FA /* shared_preferences_foundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "shared_preferences_foundation-Info.plist"; sourceTree = "<group>"; };
 		EA0CB4D6635ACB40D8D647ED3134C863 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../.pub-cache/hosted/pub.dev/fort-0.1.2/LICENSE"; sourceTree = "<group>"; };
-		EC8738AB01AAA34F1229EFED29B2AA20 /* path_provider_foundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = path_provider_foundation.modulemap; sourceTree = "<group>"; };
 		ECB96DCE1169F9A1E37C0C433CD56C83 /* connectivity-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "connectivity-umbrella.h"; sourceTree = "<group>"; };
-		ECC627F54309D28DC371061A32B1DBA8 /* shared_preferences_foundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "shared_preferences_foundation-prefix.pch"; sourceTree = "<group>"; };
 		ECDF6AA713870989438BA93B395DC557 /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ED0D231DB29D3B6B558743C246A76299 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
 		ED838B4C93780FAD453EF572A11C76E5 /* fort-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fort-prefix.pch"; sourceTree = "<group>"; };
 		EDCEBC0C6A6449FF70C78942BCD24CDA /* SwiftFortPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftFortPlugin.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/fort-0.1.2/ios/Classes/SwiftFortPlugin.swift"; sourceTree = "<group>"; };
+		EE0E550187962142C8C787E67EB855EF /* path_provider_foundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = path_provider_foundation.debug.xcconfig; sourceTree = "<group>"; };
 		F2B122B4064EE3DA38748C3D0543A304 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../.pub-cache/hosted/pub.dev/connectivity-3.0.6/LICENSE"; sourceTree = "<group>"; };
-		FF5AF9B21B94CF5BC8F9F1C543E1ECB9 /* messages.g.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = messages.g.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.3.3/darwin/Classes/messages.g.swift"; sourceTree = "<group>"; };
+		F545014867F078E6877CCE59735C79E3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.3.4/LICENSE"; sourceTree = "<group>"; };
+		FAADBE5178B86FB8397DFD90196969D9 /* path_provider_foundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = path_provider_foundation.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -330,6 +330,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00FF626C476C3FAECCAC51BBF273A312 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				76FC48CEC5BB73999255733EC759FF9D /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
 		045EA880053A8F4FB1041B0510005B42 /* .. */ = {
 			isa = PBXGroup;
 			children = (
@@ -337,15 +346,6 @@
 			);
 			name = ..;
 			path = "../../../../../../../../.pub-cache/hosted/pub.dev/connectivity-3.0.6/ios";
-			sourceTree = "<group>";
-		};
-		05FBC1F088CD3AA7A2C363A3FAB2FFD8 /* darwin */ = {
-			isa = PBXGroup;
-			children = (
-				C650A7F37697BBBEEC2271195F47B12E /* Classes */,
-			);
-			name = darwin;
-			path = darwin;
 			sourceTree = "<group>";
 		};
 		071CBDD74EDE574E8B9BE498163808CD /* Desktop */ = {
@@ -377,10 +377,10 @@
 			path = ../.symlinks/plugins/flutter_keyboard_visibility/ios;
 			sourceTree = "<group>";
 		};
-		1007497893A5DC4026FEB8862EE39E34 /* Desktop */ = {
+		0B5D0BB4F12BD16F1E5CE96D7B9D29DA /* Desktop */ = {
 			isa = PBXGroup;
 			children = (
-				EBCAA8FF336A492B6A1661FD83DDA619 /* KHULOSET */,
+				5526A960A1CDDFD8272B704E2D73D350 /* KHULOSET */,
 			);
 			name = Desktop;
 			path = Desktop;
@@ -395,15 +395,6 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		12E32BBB8FA2E07D8A7A0C40F0296A98 /* path_provider_foundation */ = {
-			isa = PBXGroup;
-			children = (
-				05FBC1F088CD3AA7A2C363A3FAB2FFD8 /* darwin */,
-			);
-			name = path_provider_foundation;
-			path = path_provider_foundation;
-			sourceTree = "<group>";
-		};
 		158DE74C9F16D6A50D93B24C20B67C45 /* .. */ = {
 			isa = PBXGroup;
 			children = (
@@ -413,12 +404,36 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		15BDE777C6FD3B82A02282D7FF90F646 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E2B9B5933C2E189A04B2118D2EB6C2B /* path_provider_foundation.modulemap */,
+				149F89E8EA046B176FA9DFFA279C49E7 /* path_provider_foundation-dummy.m */,
+				B81E4AE8C73A57FFBF2D594E26733EBB /* path_provider_foundation-Info.plist */,
+				6D6E81286D99498D321F36B2B8E2750F /* path_provider_foundation-prefix.pch */,
+				9AB60493FB4EACE4697AA18FE3EB2E34 /* path_provider_foundation-umbrella.h */,
+				EE0E550187962142C8C787E67EB855EF /* path_provider_foundation.debug.xcconfig */,
+				FAADBE5178B86FB8397DFD90196969D9 /* path_provider_foundation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/path_provider_foundation";
+			sourceTree = "<group>";
+		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				A651368EF97F3D9B9BAA0C0FD537DD81 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16D33C9D0B1D516EB3D791BF3DF5B1B3 /* darwin */ = {
+			isa = PBXGroup;
+			children = (
+				3A09A39F2544AB55B4B0372CF9DDA840 /* Classes */,
+			);
+			name = darwin;
+			path = darwin;
 			sourceTree = "<group>";
 		};
 		1CF3FEB3FE2A6F25FA9D0116E7CB3EDC /* ios */ = {
@@ -457,22 +472,33 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		2986BE032EBB3A0595CAE49468544B71 /* .. */ = {
+		2841F7B2D6A85E008399F8D49951A3D2 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				61E2985F269F1836638D8922BBEBEBCA /* .. */,
+				C40FDCA4B4F9395F07AAD74189B01063 /* LICENSE */,
+				852B71F176E5044E662DB79812FF14E2 /* path_provider_foundation.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2C403AF7F00D22167A828860B053719D /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				33AC21E2232BE4C8C8DEAD94B7701AAF /* .. */,
 			);
 			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
-		29DF9F59A4AD098B385C43C286032F2B /* darwin */ = {
+		2CCC72026F33F5C37260BC6F74C21354 /* shared_preferences_foundation */ = {
 			isa = PBXGroup;
 			children = (
-				CA1E4DE5DDFE8C2806F5963373E1C4B4 /* Classes */,
+				9917E34B267D4023A01660CEC75E3087 /* .. */,
+				584C7554529150AB2F44A4D24F0597DB /* Pod */,
+				DD46FB645DADE4EF2844DA6309A68C14 /* Support Files */,
 			);
-			name = darwin;
-			path = darwin;
+			name = shared_preferences_foundation;
+			path = ../.symlinks/plugins/shared_preferences_foundation/darwin;
 			sourceTree = "<group>";
 		};
 		2D3C4091040141FBBA569D26E65E1962 /* Support Files */ = {
@@ -494,30 +520,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2E2EFBF279BA2E7B5C59324FC5055A6A /* KHULOSET */ = {
-			isa = PBXGroup;
-			children = (
-				8C0C0E498F3CEE8EA7D6421DEF254406 /* khuloset_beta */,
-			);
-			name = KHULOSET;
-			path = KHULOSET;
-			sourceTree = "<group>";
-		};
-		2F1576CEDA2FEF4D87B80C95FDFB861C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EC8738AB01AAA34F1229EFED29B2AA20 /* path_provider_foundation.modulemap */,
-				224EFAC30683C44B0CC5E65334CFD6BB /* path_provider_foundation-dummy.m */,
-				9452BAEC2D175502FC0CCD9F536D1792 /* path_provider_foundation-Info.plist */,
-				5C891814C9D161DE7C97859E9B80CE7D /* path_provider_foundation-prefix.pch */,
-				455A351AA5E41C8B7F6F3E63B073190C /* path_provider_foundation-umbrella.h */,
-				BF73982FDB63945CEF688D1957EFD87F /* path_provider_foundation.debug.xcconfig */,
-				45AB964736B0C0663B67F1EB8C6475DF /* path_provider_foundation.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../../../../Pods/Target Support Files/path_provider_foundation";
-			sourceTree = "<group>";
-		};
 		302AFFD8D3058202BB7DC0A22247A7D9 /* plugins */ = {
 			isa = PBXGroup;
 			children = (
@@ -535,13 +537,41 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		394586FD631F9C6CFD8ADE456F513AF1 /* khuloset_beta */ = {
+		33AC21E2232BE4C8C8DEAD94B7701AAF /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				883BDAD12733CA8D1B493E7A690ACA2D /* ios */,
+				95AABAF3F1C9492B571DE8ED332591DD /* .. */,
 			);
-			name = khuloset_beta;
-			path = khuloset_beta;
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		38227D2A2C3E82E7AFBCF6B31DFF9889 /* KHULOSET */ = {
+			isa = PBXGroup;
+			children = (
+				B906C1656862E42DAC49BDB6152C537E /* khuloset_beta */,
+			);
+			name = KHULOSET;
+			path = KHULOSET;
+			sourceTree = "<group>";
+		};
+		3A09A39F2544AB55B4B0372CF9DDA840 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8A54D0885D5C3E3B1A14184956D94E30 /* messages.g.swift */,
+				258DF496A4AB07E9E20C33CDC3AB8506 /* PathProviderPlugin.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3ADA3E9B258EB2CEE08005423A48A467 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				C5A5D0C45BE2C8654FB18C1F0C92CA63 /* .. */,
+			);
+			name = ..;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		3F854AD06834F614D80CA3B8DA0F3753 /* .symlinks */ = {
@@ -553,6 +583,15 @@
 			path = .symlinks;
 			sourceTree = "<group>";
 		};
+		402BC2974F6A4EF59D20CA451BB765C6 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				599AFFF909A27C9FCE4B0B2D833D7A91 /* shared_preferences_foundation */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
 		413C488425D9FC72B7623C472F4B1612 /* KHULOSET */ = {
 			isa = PBXGroup;
 			children = (
@@ -562,15 +601,13 @@
 			path = KHULOSET;
 			sourceTree = "<group>";
 		};
-		41EC4B1C52EE17691E4B98F3C2E41204 /* path_provider_foundation */ = {
+		41EBF6FE4DCA163E2725157BE0DD4A20 /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				DFCC198B68038EA20A4E29CB1D04F7D2 /* .. */,
-				EC4578EC5FE4138DE5EB4C48F03F1CEE /* Pod */,
-				2F1576CEDA2FEF4D87B80C95FDFB861C /* Support Files */,
+				D7303580E05D5FC49D3FB31712E67B1F /* .. */,
 			);
-			name = path_provider_foundation;
-			path = ../.symlinks/plugins/path_provider_foundation/darwin;
+			name = ..;
+			path = "../../../../../../../../.pub-cache/hosted/pub.dev/path_provider_foundation-2.3.1/darwin";
 			sourceTree = "<group>";
 		};
 		4A27CC7CE0E391B3ED10118EB1D3CBA7 /* connectivity */ = {
@@ -580,6 +617,15 @@
 			);
 			name = connectivity;
 			path = connectivity;
+			sourceTree = "<group>";
+		};
+		4E921909EB3A19DA53EF4468E00DA3A0 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				3ADA3E9B258EB2CEE08005423A48A467 /* .. */,
+			);
+			name = ..;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		50A55F3E452BB9DFDE435594F984419B /* .. */ = {
@@ -600,24 +646,6 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		52A95ED7CB301CB55CB61293E0B9DD34 /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				85BF9952BADF5955603708AB2B13D374 /* .. */,
-			);
-			name = ..;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		532EF978D5A1495CAEE3BA5AC2FF48B8 /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				A60FF37A64D1A14C3027F340F92923A9 /* Desktop */,
-			);
-			name = ..;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		537E840C4F4E30B706FD9D64B15C53A7 /* Pods-RunnerTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -635,13 +663,13 @@
 			path = "Target Support Files/Pods-RunnerTests";
 			sourceTree = "<group>";
 		};
-		54287879EC56A0A8B42E9FFBF9A657FF /* .. */ = {
+		5526A960A1CDDFD8272B704E2D73D350 /* KHULOSET */ = {
 			isa = PBXGroup;
 			children = (
-				52A95ED7CB301CB55CB61293E0B9DD34 /* .. */,
+				C698130846F40E9C06EF9BA7F90547D7 /* khuloset_beta */,
 			);
-			name = ..;
-			path = ..;
+			name = KHULOSET;
+			path = KHULOSET;
 			sourceTree = "<group>";
 		};
 		57363C19F1168CB61DFBF534E00251A1 /* Classes */ = {
@@ -663,6 +691,15 @@
 			path = khuloset_beta;
 			sourceTree = "<group>";
 		};
+		584C7554529150AB2F44A4D24F0597DB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F545014867F078E6877CCE59735C79E3 /* LICENSE */,
+				098B494E5D08D7EA4BADD813099C3891 /* shared_preferences_foundation.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		58657083B895BD1B3E9C01B347D78750 /* .. */ = {
 			isa = PBXGroup;
 			children = (
@@ -679,6 +716,24 @@
 			);
 			name = ..;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		599AFFF909A27C9FCE4B0B2D833D7A91 /* shared_preferences_foundation */ = {
+			isa = PBXGroup;
+			children = (
+				FFC0B69484FBFC9FFDFDEBB9FCF38EF4 /* darwin */,
+			);
+			name = shared_preferences_foundation;
+			path = shared_preferences_foundation;
+			sourceTree = "<group>";
+		};
+		5AC1E76F6980132DE4DD4E676122AE6A /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				B6DB6F700DA9DF5599DCF2DCD7FA7E80 /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
 			sourceTree = "<group>";
 		};
 		5E5271C12758F7EC9331FD7E665345BD /* plugins */ = {
@@ -700,24 +755,6 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		61E2985F269F1836638D8922BBEBEBCA /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				EABDF58B2E842EE776D489B989357D9C /* .. */,
-			);
-			name = ..;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		630FB908B3281C13150AA57AEC04F3AE /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				C88433019219733EC8DB63F9049E7B27 /* .. */,
-			);
-			name = ..;
-			path = "../../../../../../../../.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.3.3/darwin";
-			sourceTree = "<group>";
-		};
 		65A05C4A3C1F686ED0A4D7CCFBEAC743 /* .. */ = {
 			isa = PBXGroup;
 			children = (
@@ -727,22 +764,13 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		7103CAC975B686491877C109BF8DDB82 /* .symlinks */ = {
+		76FC48CEC5BB73999255733EC759FF9D /* plugins */ = {
 			isa = PBXGroup;
 			children = (
-				D835F998437C160CAF2F6BCCBF19F864 /* plugins */,
+				81CB257EE0358CC3407598F4B028BD25 /* path_provider_foundation */,
 			);
-			name = .symlinks;
-			path = .symlinks;
-			sourceTree = "<group>";
-		};
-		77A8EB3D1884C92508CF63F4BF70BFF8 /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				7103CAC975B686491877C109BF8DDB82 /* .symlinks */,
-			);
-			name = ios;
-			path = ios;
+			name = plugins;
+			path = plugins;
 			sourceTree = "<group>";
 		};
 		78C4B4C7763A1D782C89A7DB3DD4F4EB /* ios */ = {
@@ -763,19 +791,19 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		85BF9952BADF5955603708AB2B13D374 /* .. */ = {
+		81CB257EE0358CC3407598F4B028BD25 /* path_provider_foundation */ = {
 			isa = PBXGroup;
 			children = (
-				1007497893A5DC4026FEB8862EE39E34 /* Desktop */,
+				16D33C9D0B1D516EB3D791BF3DF5B1B3 /* darwin */,
 			);
-			name = ..;
-			path = ..;
+			name = path_provider_foundation;
+			path = path_provider_foundation;
 			sourceTree = "<group>";
 		};
-		86913C8BCC5CDB356A2C7B5AB90B88A3 /* .. */ = {
+		83E9048FE3ED3B998FADD79BC0C3742C /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				B2A5028EF7932CDA9DD86F2686F28164 /* .. */,
+				0B5D0BB4F12BD16F1E5CE96D7B9D29DA /* Desktop */,
 			);
 			name = ..;
 			path = ..;
@@ -790,22 +818,13 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		883BDAD12733CA8D1B493E7A690ACA2D /* ios */ = {
+		8DCEF9F3280462E061DF222C0696E928 /* Desktop */ = {
 			isa = PBXGroup;
 			children = (
-				BA90EED0625BA4B0FFAEE945F3C75555 /* .symlinks */,
+				38227D2A2C3E82E7AFBCF6B31DFF9889 /* KHULOSET */,
 			);
-			name = ios;
-			path = ios;
-			sourceTree = "<group>";
-		};
-		8C0C0E498F3CEE8EA7D6421DEF254406 /* khuloset_beta */ = {
-			isa = PBXGroup;
-			children = (
-				77A8EB3D1884C92508CF63F4BF70BFF8 /* ios */,
-			);
-			name = khuloset_beta;
-			path = khuloset_beta;
+			name = Desktop;
+			path = Desktop;
 			sourceTree = "<group>";
 		};
 		8E39ECD82C5455BA74436D127F90309A /* Reachability */ = {
@@ -855,13 +874,42 @@
 			path = ios;
 			sourceTree = "<group>";
 		};
-		9D05ABCB470A31002510E16415B21537 /* plugins */ = {
+		95AABAF3F1C9492B571DE8ED332591DD /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				12E32BBB8FA2E07D8A7A0C40F0296A98 /* path_provider_foundation */,
+				83E9048FE3ED3B998FADD79BC0C3742C /* .. */,
 			);
-			name = plugins;
-			path = plugins;
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9917E34B267D4023A01660CEC75E3087 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				4E921909EB3A19DA53EF4468E00DA3A0 /* .. */,
+			);
+			name = ..;
+			path = "../../../../../../../../.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.3.4/darwin";
+			sourceTree = "<group>";
+		};
+		9B0C23580C1C30390A185877FAED3645 /* path_provider_foundation */ = {
+			isa = PBXGroup;
+			children = (
+				41EBF6FE4DCA163E2725157BE0DD4A20 /* .. */,
+				2841F7B2D6A85E008399F8D49951A3D2 /* Pod */,
+				15BDE777C6FD3B82A02282D7FF90F646 /* Support Files */,
+			);
+			name = path_provider_foundation;
+			path = ../.symlinks/plugins/path_provider_foundation/darwin;
+			sourceTree = "<group>";
+		};
+		9B77F345BD68B106F3DA4997690A46CF /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				00FF626C476C3FAECCAC51BBF273A312 /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
 			sourceTree = "<group>";
 		};
 		A1E96A9F33668EA50DD5762138AD9CDD /* .. */ = {
@@ -888,15 +936,6 @@
 			path = "../Target Support Files/Reachability";
 			sourceTree = "<group>";
 		};
-		A464FEB93EB45DA711AB5E5DC5346946 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				68855658E85FC5168230D9138295F262 /* LICENSE */,
-				2D66B2E8FC7C1105F3B73F33085673F2 /* shared_preferences_foundation.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		A47DD057334115019103A8D585CCBF87 /* plugins */ = {
 			isa = PBXGroup;
 			children = (
@@ -904,15 +943,6 @@
 			);
 			name = plugins;
 			path = plugins;
-			sourceTree = "<group>";
-		};
-		A60FF37A64D1A14C3027F340F92923A9 /* Desktop */ = {
-			isa = PBXGroup;
-			children = (
-				2E2EFBF279BA2E7B5C59324FC5055A6A /* KHULOSET */,
-			);
-			name = Desktop;
-			path = Desktop;
 			sourceTree = "<group>";
 		};
 		A651368EF97F3D9B9BAA0C0FD537DD81 /* iOS */ = {
@@ -957,15 +987,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B2A5028EF7932CDA9DD86F2686F28164 /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				54287879EC56A0A8B42E9FFBF9A657FF /* .. */,
-			);
-			name = ..;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		B4E61C556871FA40EE737DC9A89CE80A /* ios */ = {
 			isa = PBXGroup;
 			children = (
@@ -973,6 +994,15 @@
 			);
 			name = ios;
 			path = ios;
+			sourceTree = "<group>";
+		};
+		B6DB6F700DA9DF5599DCF2DCD7FA7E80 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				402BC2974F6A4EF59D20CA451BB765C6 /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
 			sourceTree = "<group>";
 		};
 		B71BDA2482613A39E4EAF1BEEE27FF27 /* Flutter */ = {
@@ -983,6 +1013,16 @@
 			);
 			name = Flutter;
 			path = ../Flutter;
+			sourceTree = "<group>";
+		};
+		B724699C35CCFDB79362B47CF0B1F924 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C9F373087365212AD5DF6093859F725C /* messages.g.swift */,
+				8CE76BBCBDA49CA025C96BAE345C836D /* SharedPreferencesPlugin.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		B848E3D29DB88453D145001DE9FFF8CA /* .symlinks */ = {
@@ -1003,13 +1043,13 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		BA90EED0625BA4B0FFAEE945F3C75555 /* .symlinks */ = {
+		B906C1656862E42DAC49BDB6152C537E /* khuloset_beta */ = {
 			isa = PBXGroup;
 			children = (
-				9D05ABCB470A31002510E16415B21537 /* plugins */,
+				5AC1E76F6980132DE4DD4E676122AE6A /* ios */,
 			);
-			name = .symlinks;
-			path = .symlinks;
+			name = khuloset_beta;
+			path = khuloset_beta;
 			sourceTree = "<group>";
 		};
 		BAE81AADDCBC40E51632DE40CC19FE6D /* .. */ = {
@@ -1034,17 +1074,6 @@
 			);
 			name = "Support Files";
 			path = "../../../../Pods/Target Support Files/connectivity";
-			sourceTree = "<group>";
-		};
-		BEFB730FEC4B34EBC4D39FE811BBCFAE /* shared_preferences_foundation */ = {
-			isa = PBXGroup;
-			children = (
-				630FB908B3281C13150AA57AEC04F3AE /* .. */,
-				A464FEB93EB45DA711AB5E5DC5346946 /* Pod */,
-				F02F4B6FA5036B7DA2B4275887F2D212 /* Support Files */,
-			);
-			name = shared_preferences_foundation;
-			path = ../.symlinks/plugins/shared_preferences_foundation/darwin;
 			sourceTree = "<group>";
 		};
 		BF480684F15E0F15E4DA836FF05A8542 /* .. */ = {
@@ -1090,10 +1119,19 @@
 				B71BDA2482613A39E4EAF1BEEE27FF27 /* Flutter */,
 				0802E20177D94FA5CAE13172EBC668CA /* flutter_keyboard_visibility */,
 				CA07BD6AFF2BB95999B86DFB6A4DD288 /* fort */,
-				41EC4B1C52EE17691E4B98F3C2E41204 /* path_provider_foundation */,
-				BEFB730FEC4B34EBC4D39FE811BBCFAE /* shared_preferences_foundation */,
+				9B0C23580C1C30390A185877FAED3645 /* path_provider_foundation */,
+				2CCC72026F33F5C37260BC6F74C21354 /* shared_preferences_foundation */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C5A5D0C45BE2C8654FB18C1F0C92CA63 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				CF902EAB22DDC03DFE9953C33004EEC0 /* .. */,
+			);
+			name = ..;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		C629D70735EAA4B67856436C87EE34A2 /* Pod */ = {
@@ -1104,14 +1142,13 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		C650A7F37697BBBEEC2271195F47B12E /* Classes */ = {
+		C698130846F40E9C06EF9BA7F90547D7 /* khuloset_beta */ = {
 			isa = PBXGroup;
 			children = (
-				0960B746D58AE29711797B3E3F43784C /* messages.g.swift */,
-				38FA9EAC369863076BE171A5A453DF19 /* PathProviderPlugin.swift */,
+				9B77F345BD68B106F3DA4997690A46CF /* ios */,
 			);
-			name = Classes;
-			path = Classes;
+			name = khuloset_beta;
+			path = khuloset_beta;
 			sourceTree = "<group>";
 		};
 		C749C3D71F632DAE5BD115E27425AC75 /* khuloset_beta */ = {
@@ -1134,15 +1171,6 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		C88433019219733EC8DB63F9049E7B27 /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				2986BE032EBB3A0595CAE49468544B71 /* .. */,
-			);
-			name = ..;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		CA07BD6AFF2BB95999B86DFB6A4DD288 /* fort */ = {
 			isa = PBXGroup;
 			children = (
@@ -1152,16 +1180,6 @@
 			);
 			name = fort;
 			path = ../.symlinks/plugins/fort/ios;
-			sourceTree = "<group>";
-		};
-		CA1E4DE5DDFE8C2806F5963373E1C4B4 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				FF5AF9B21B94CF5BC8F9F1C543E1ECB9 /* messages.g.swift */,
-				B1479ED6EE613599E3B47FF5353B0798 /* SharedPreferencesPlugin.swift */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		CA68E48F5630FE1397C0FEB10B021B15 /* Support Files */ = {
@@ -1200,22 +1218,37 @@
 			);
 			sourceTree = "<group>";
 		};
-		D835F998437C160CAF2F6BCCBF19F864 /* plugins */ = {
+		CF902EAB22DDC03DFE9953C33004EEC0 /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				FBB2FCD686D25743B944470E85A7EF3F /* shared_preferences_foundation */,
-			);
-			name = plugins;
-			path = plugins;
-			sourceTree = "<group>";
-		};
-		DFCC198B68038EA20A4E29CB1D04F7D2 /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				86913C8BCC5CDB356A2C7B5AB90B88A3 /* .. */,
+				FADF9D792D413DA4BC1F0EDE0AA2BA0A /* .. */,
 			);
 			name = ..;
-			path = "../../../../../../../../.pub-cache/hosted/pub.dev/path_provider_foundation-2.3.0/darwin";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D7303580E05D5FC49D3FB31712E67B1F /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				2C403AF7F00D22167A828860B053719D /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		DD46FB645DADE4EF2844DA6309A68C14 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				285BD5E8F08286CEEB2F3B5C3B666CF5 /* shared_preferences_foundation.modulemap */,
+				7ECA7E663ECAF51B27F2A84E70E588C5 /* shared_preferences_foundation-dummy.m */,
+				D85FA0A062BE387B3E4F823CA9D41FE8 /* shared_preferences_foundation-Info.plist */,
+				A8D398873E2BE200F7465AFAB0C0F2C0 /* shared_preferences_foundation-prefix.pch */,
+				6632662CC50E28ABBBAF2E2E30966794 /* shared_preferences_foundation-umbrella.h */,
+				C79F0CD09A76290FA968570DE13268EE /* shared_preferences_foundation.debug.xcconfig */,
+				D74B7F38581F89D22C937660561EC26B /* shared_preferences_foundation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/shared_preferences_foundation";
 			sourceTree = "<group>";
 		};
 		E499E2D42ED538311E4C701AB3346BDB /* connectivity */ = {
@@ -1256,24 +1289,6 @@
 			path = khuloset_beta;
 			sourceTree = "<group>";
 		};
-		EABDF58B2E842EE776D489B989357D9C /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				532EF978D5A1495CAEE3BA5AC2FF48B8 /* .. */,
-			);
-			name = ..;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		EBCAA8FF336A492B6A1661FD83DDA619 /* KHULOSET */ = {
-			isa = PBXGroup;
-			children = (
-				394586FD631F9C6CFD8ADE456F513AF1 /* khuloset_beta */,
-			);
-			name = KHULOSET;
-			path = KHULOSET;
-			sourceTree = "<group>";
-		};
 		EC0DCCD7E19EE4BF1AD5238DEFA11622 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1287,30 +1302,6 @@
 			);
 			name = "Support Files";
 			path = "../../../../Pods/Target Support Files/fort";
-			sourceTree = "<group>";
-		};
-		EC4578EC5FE4138DE5EB4C48F03F1CEE /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7DA2B624852565CA6890F76EAD60C339 /* LICENSE */,
-				165D0A5AE859F21FF85693E3866E72E4 /* path_provider_foundation.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		F02F4B6FA5036B7DA2B4275887F2D212 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				09FC93984F3D78BD37DC476EDA93B753 /* shared_preferences_foundation.modulemap */,
-				A10C6F47EB4FD72A3668B34A4E881333 /* shared_preferences_foundation-dummy.m */,
-				E7C1DC9CFCFAE88EB8C3D967A98F45FA /* shared_preferences_foundation-Info.plist */,
-				ECC627F54309D28DC371061A32B1DBA8 /* shared_preferences_foundation-prefix.pch */,
-				7CEA0A3A44ADCF8473FC4F7C44424E94 /* shared_preferences_foundation-umbrella.h */,
-				775DE353B8A5D0570E94ACB6E3132D96 /* shared_preferences_foundation.debug.xcconfig */,
-				1F754CA900EAAF52AB03F3CB6167993B /* shared_preferences_foundation.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../../../../Pods/Target Support Files/shared_preferences_foundation";
 			sourceTree = "<group>";
 		};
 		F9338D8D7AE20B7627C71F100B78B8D9 /* .. */ = {
@@ -1331,13 +1322,13 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		FBB2FCD686D25743B944470E85A7EF3F /* shared_preferences_foundation */ = {
+		FADF9D792D413DA4BC1F0EDE0AA2BA0A /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				29DF9F59A4AD098B385C43C286032F2B /* darwin */,
+				8DCEF9F3280462E061DF222C0696E928 /* Desktop */,
 			);
-			name = shared_preferences_foundation;
-			path = shared_preferences_foundation;
+			name = ..;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		FD11BEE5B0CF31B326D9938C3BD90842 /* .. */ = {
@@ -1347,6 +1338,15 @@
 			);
 			name = ..;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		FFC0B69484FBFC9FFDFDEBB9FCF38EF4 /* darwin */ = {
+			isa = PBXGroup;
+			children = (
+				B724699C35CCFDB79362B47CF0B1F924 /* Classes */,
+			);
+			name = darwin;
+			path = darwin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1707,9 +1707,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4206A78CFFFEF2955D07EEC22529B95 /* messages.g.swift in Sources */,
+				6DB1D2542F6DC6DC388282FEBFBC7136 /* messages.g.swift in Sources */,
 				CB304644E43CAD6B13C964EC96E78E94 /* shared_preferences_foundation-dummy.m in Sources */,
-				A4F4B47C0288F7B73A09BB3C942BBC99 /* SharedPreferencesPlugin.swift in Sources */,
+				9A072FC5E864F776AC927FF474275E36 /* SharedPreferencesPlugin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1725,9 +1725,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8859CE0A52693F5638735E5007A17640 /* messages.g.swift in Sources */,
+				C7778BC57A550727AA5B298F3C515646 /* messages.g.swift in Sources */,
 				75256219A6DCF0B5F286C4FAEBC68163 /* path_provider_foundation-dummy.m in Sources */,
-				8362A230C8919A1F8BFD28441B3300E3 /* PathProviderPlugin.swift in Sources */,
+				31F9D6622B3B5883812B8B1E5F2C59CE /* PathProviderPlugin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2109,7 +2109,7 @@
 		};
 		42E297F20B96C158A81FEB12A54E7AA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 775DE353B8A5D0570E94ACB6E3132D96 /* shared_preferences_foundation.debug.xcconfig */;
+			baseConfigurationReference = C79F0CD09A76290FA968570DE13268EE /* shared_preferences_foundation.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
@@ -2157,7 +2157,7 @@
 		};
 		49271D63A81BB33C67F3D14DE151A1B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF73982FDB63945CEF688D1957EFD87F /* path_provider_foundation.debug.xcconfig */;
+			baseConfigurationReference = EE0E550187962142C8C787E67EB855EF /* path_provider_foundation.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
@@ -2598,7 +2598,7 @@
 		};
 		9F786BD975C5AA6B891AB146659C6108 /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45AB964736B0C0663B67F1EB8C6475DF /* path_provider_foundation.release.xcconfig */;
+			baseConfigurationReference = FAADBE5178B86FB8397DFD90196969D9 /* path_provider_foundation.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
@@ -2647,7 +2647,7 @@
 		};
 		A041C145BD7063B144F54E4FDF68B78F /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F754CA900EAAF52AB03F3CB6167993B /* shared_preferences_foundation.release.xcconfig */;
+			baseConfigurationReference = D74B7F38581F89D22C937660561EC26B /* shared_preferences_foundation.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
@@ -2713,7 +2713,7 @@
 		};
 		A4B56774FC3D7BD58A662C6266AF6F10 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F754CA900EAAF52AB03F3CB6167993B /* shared_preferences_foundation.release.xcconfig */;
+			baseConfigurationReference = D74B7F38581F89D22C937660561EC26B /* shared_preferences_foundation.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
@@ -2761,7 +2761,7 @@
 		};
 		B178C73248B3B794B7753B08B265AD61 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45AB964736B0C0663B67F1EB8C6475DF /* path_provider_foundation.release.xcconfig */;
+			baseConfigurationReference = FAADBE5178B86FB8397DFD90196969D9 /* path_provider_foundation.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;

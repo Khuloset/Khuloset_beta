@@ -28,4 +28,6 @@ class IconsPath {
   static String get uploadIcon => 'assets/images/bottom_nav_upload_icon.jpg';
   static String get activeOff => 'assets/images/bottom_nav_active_off_icon.jpg';
   static String get activeOn => 'assets/images/bottom_nav_active_on_icon.jpg';
+
+  static String get logo => 'assets/images/logo.jpg';
 }
