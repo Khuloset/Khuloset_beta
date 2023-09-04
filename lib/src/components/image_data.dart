@@ -30,4 +30,5 @@ class IconsPath {
   static String get activeOn => 'assets/images/bottom_nav_active_on_icon.jpg';
 
   static String get logo => 'assets/images/logo.jpg';
+  static String get dm => 'assets/images/reply_icon.jpg';
 }
