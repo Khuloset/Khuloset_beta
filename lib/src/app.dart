@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:khuloset_beta/src/components/image_data.dart';
 import 'package:khuloset_beta/src/controller/bottom_nav_controller.dart';
+import 'package:khuloset_beta/src/pages/home.dart';
 
 class App extends GetView<BottomNavController> {
   const App({super.key});
@@ -10,31 +11,11 @@ class App extends GetView<BottomNavController> {
   Widget build(BuildContext context) {
     return Obx(
       () => Scaffold(
-        backgroundColor: Colors.blueGrey,
-        appBar: AppBar(
-          title: ImageData(
-            path: IconsPath.logo,
-            width: 300,
-          ),
-          actions: [
-            //옵션버튼
-            GestureDetector(
-              onTap: () {},
-              child: Padding(
-                padding: const EdgeInsets.all(15.0),
-                child: ImageData(
-                  path: IconsPath.dm,
-                ),
-              ),
-            )
-          ],
-        ),
+        backgroundColor: Colors.white,
         body: IndexedStack(
           index: controller.pageIndex.value,
           children: [
-            Container(
-              child: Center(child: Text('HOME')),
-            ),
+            const Home(),
             Container(
               child: Center(child: Text('SEARCH')),
             ),
