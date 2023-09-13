@@ -1,4 +1,5 @@
 import 'dart:math';
+import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:khuloset_beta/src/components/image_data.dart';
 import 'package:khuloset_beta/src/components/item.dart';
@@ -17,7 +18,7 @@ class Home extends StatelessWidget {
             _body2(),
             _body3(),
             _body4(),
-            _items()
+            _items(),
           ],
         ),
       ),
@@ -26,6 +27,7 @@ class Home extends StatelessWidget {
 
   Widget _appBar() {
     return SliverAppBar(
+      //backgroundColor: Colors.white,
       //pinned: true,
       floating: true,
       elevation: 200,
@@ -33,11 +35,12 @@ class Home extends StatelessWidget {
         title: GestureDetector(
           onTap: () {},
           child: Align(
-            widthFactor: 4.2,
+            heightFactor: 0.5,
+            widthFactor: 2.5,
             alignment: Alignment.centerLeft,
             child: ImageData(
               path: IconsPath.logo,
-              width: 270,
+              width: 500,
             ),
           ),
         ),
@@ -108,20 +111,17 @@ class Home extends StatelessWidget {
           bottom: false,
           child: Container(
             height: 330,
+            width: Get.width,
             child: Stack(
               children: [
                 Positioned(
-                  left: 0,
-                  right: 0,
-                  top: 0,
-                  bottom: 0,
                   child: Container(
                     width: double.infinity,
                     height: double.infinity,
                     decoration: const ShapeDecoration(
                       gradient: RadialGradient(
-                        center: Alignment(0.05, 0.05),
-                        radius: 0.8,
+                        center: Alignment(0.02, 0.05),
+                        radius: 0.9,
                         colors: [
                           Color(0xFFCF921C),
                           Color(0x00E2AC43),
@@ -267,6 +267,7 @@ class Home extends StatelessWidget {
         (BuildContext context, int index) {
           // 각 아이템을 나타내는 위젯을 반환
           return Card(
+            //elevation: 1,
             child: Column(
               children: [
                 Image.network(
