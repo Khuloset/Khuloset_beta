@@ -1,8 +1,6 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:khuloset_beta/src/components/image_data.dart';
-import 'package:khuloset_beta/src/controller/bottom_nav_controller.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -12,7 +10,7 @@ class Home extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         body: CustomScrollView(
-          slivers: <Widget>[_appBar(), _body1(), _body2()],
+          slivers: <Widget>[_appBar(), _body1(), _body2(), _body3(), _items()],
         ),
       ),
     );
@@ -28,7 +26,7 @@ class Home extends StatelessWidget {
           onTap: () {},
           child: Align(
             widthFactor: 4.2,
-            alignment: Alignment.bottomLeft,
+            alignment: Alignment.centerLeft,
             child: ImageData(
               path: IconsPath.logo,
               width: 270,
@@ -64,7 +62,7 @@ class Home extends StatelessWidget {
               children: <Widget>[
                 Container(
                   margin: EdgeInsets.only(left: 40),
-                  child: Text(
+                  child: const Text(
                     'WHAT’S NEW?',
                     textAlign: TextAlign.start,
                     style: TextStyle(
@@ -78,7 +76,7 @@ class Home extends StatelessWidget {
                 ),
                 Container(
                   margin: EdgeInsets.only(left: 40),
-                  child: Text(
+                  child: const Text(
                     '신규 등록 상품',
                     style: TextStyle(
                       color: Color(0xFF838383),
@@ -91,20 +89,122 @@ class Home extends StatelessWidget {
                 ),
               ]),
         ),
-        Container(
-          decoration: BoxDecoration(
-            border: Border.all(
-              color: Colors.black, // 테두리 색상
-              width: 10.0, // 테두리 두께
-            ),
-          ),
-          height: 400,
-        ),
       ]),
     );
   }
 
   Widget _body2() {
+    return SliverList.builder(
+      itemCount: 1,
+      itemBuilder: (context, index) => Column(children: [
+        SafeArea(
+          bottom: false,
+          child: Container(
+            height: 330,
+            child: Stack(
+              children: [
+                Positioned(
+                  left: 0,
+                  right: 0,
+                  top: 0,
+                  bottom: 0,
+                  child: Container(
+                    width: double.infinity,
+                    height: double.infinity,
+                    decoration: const ShapeDecoration(
+                      gradient: RadialGradient(
+                        center: Alignment(0.05, 0.05),
+                        radius: 0.8,
+                        colors: [
+                          Color(0xFFCF921C),
+                          Color(0x00E2AC43),
+                          Color(0x00E2AC43)
+                        ],
+                      ),
+                      shape: OvalBorder(),
+                    ),
+                  ),
+                ),
+                Positioned(
+                  left: 0,
+                  right: 0,
+                  top: 0,
+                  bottom: 0,
+                  child: Container(
+                    width: double.infinity,
+                    height: double.infinity,
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image:
+                            NetworkImage("https://via.placeholder.com/181x330"),
+                        fit: BoxFit.fitHeight,
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+      ]),
+    );
+  }
+
+  Widget _body3() {
+    return SliverList.builder(
+      itemCount: 1,
+      itemBuilder: (context, index) => Column(
+        children: [
+          Padding(
+            padding: EdgeInsets.only(top: 10, bottom: 10),
+            child: Container(
+              width: 258,
+              height: 48,
+              decoration: ShapeDecoration(
+                color: Color(0xFF1A1A1A),
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(4)),
+              ),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Container(
+                    padding: const EdgeInsets.only(
+                      top: 16,
+                      left: 12,
+                      right: 16,
+                      bottom: 16,
+                    ),
+                    child: const Row(
+                      mainAxisSize: MainAxisSize.min,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: [
+                        Text(
+                          'TRY ON',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 14,
+                            fontFamily: 'Balsamiq Sans',
+                            fontWeight: FontWeight.w400,
+                            height: 1.14,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _items() {
     return SliverList.builder(
         itemCount: 29,
         itemBuilder: (context, index) => Container(
