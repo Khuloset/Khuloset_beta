@@ -5,7 +5,6 @@ enum PageName {
   HOME,
   SEARCH,
   UPLOAD,
-  ACTIVITY,
   MYPAGE,
 }
 
@@ -20,7 +19,6 @@ class BottomNavController extends GetxController {
         break;
       case PageName.HOME:
       case PageName.SEARCH:
-      case PageName.ACTIVITY:
       case PageName.MYPAGE:
         _changePage(value);
         break;

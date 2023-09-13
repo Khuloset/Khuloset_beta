@@ -23,9 +23,6 @@ class App extends GetView<BottomNavController> {
               child: Center(child: Text('UPLOAD')),
             ),
             Container(
-              child: Center(child: Text('ACTIVITY')),
-            ),
-            Container(
               child: Center(child: Text('MYPAGE')),
             ),
           ],
@@ -48,10 +45,6 @@ class App extends GetView<BottomNavController> {
             BottomNavigationBarItem(
                 icon: ImageData(path: IconsPath.uploadIcon),
                 activeIcon: ImageData(path: IconsPath.uploadIcon),
-                label: 'home'),
-            BottomNavigationBarItem(
-                icon: ImageData(path: IconsPath.activeOff),
-                activeIcon: ImageData(path: IconsPath.activeOn),
                 label: 'home'),
             BottomNavigationBarItem(
               icon: Container(
