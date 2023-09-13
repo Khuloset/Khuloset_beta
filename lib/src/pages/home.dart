@@ -1,8 +1,8 @@
-import 'dart:math';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:khuloset_beta/src/components/image_data.dart';
-import 'package:khuloset_beta/src/components/item.dart';
+import 'package:khuloset_beta/src/components/item_card.dart';
+import 'package:khuloset_beta/src/components/product.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -71,7 +71,7 @@ class Home extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
                 Container(
-                  margin: EdgeInsets.only(left: 40),
+                  margin: EdgeInsets.only(left: 30),
                   child: const Text(
                     'WHAT’S NEW?',
                     textAlign: TextAlign.start,
@@ -85,7 +85,7 @@ class Home extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  margin: EdgeInsets.only(left: 40),
+                  margin: EdgeInsets.only(left: 30),
                   child: const Text(
                     '신규 등록 상품',
                     style: TextStyle(
@@ -165,7 +165,7 @@ class Home extends StatelessWidget {
           GestureDetector(
             onTap: () {},
             child: Padding(
-              padding: EdgeInsets.only(top: 10, bottom: 10),
+              padding: EdgeInsets.only(top: 20, bottom: 10),
               child: Container(
                 width: 258,
                 height: 48,
@@ -225,9 +225,9 @@ class Home extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
                 Container(
-                  margin: EdgeInsets.only(left: 40),
+                  margin: EdgeInsets.only(left: 30),
                   child: const Text(
-                    'WHAT’S NEW?',
+                    "TODAY's DRESSISM",
                     textAlign: TextAlign.start,
                     style: TextStyle(
                       color: Color(0xFF454545),
@@ -239,9 +239,9 @@ class Home extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  margin: EdgeInsets.only(left: 40),
+                  margin: EdgeInsets.only(left: 30),
                   child: const Text(
-                    '신규 등록 상품',
+                    '인기 상품',
                     style: TextStyle(
                       color: Color(0xFF838383),
                       fontSize: 12,
@@ -261,32 +261,13 @@ class Home extends StatelessWidget {
     return SliverGrid(
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 2,
-        childAspectRatio: 0.80,
+        mainAxisSpacing: 10,
+        crossAxisSpacing: 2,
+        childAspectRatio: 0.7,
       ),
       delegate: SliverChildBuilderDelegate(
-        (BuildContext context, int index) {
-          // 각 아이템을 나타내는 위젯을 반환
-          return Card(
-            //elevation: 1,
-            child: Column(
-              children: [
-                Image.network(
-                  'https://via.placeholder.com/157x218', // 이미지 URL
-                  width: double.infinity,
-                  height: 218,
-                  fit: BoxFit.fitHeight,
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Text(
-                    '아이템 $index',
-                    style: TextStyle(fontSize: 16),
-                  ),
-                ),
-              ],
-            ),
-          );
-        },
+        (BuildContext context, int index) =>
+            ItemCard(product: products[index], press: () {}),
         childCount: 10, // 아이템 개수 설정
       ),
     );
