@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "852608203033",
+    "project_id": "khuloset-beta-123",
+    "storage_bucket": "khuloset-beta-123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852608203033:android:80e35660574f3d9f6a2d88",
+        "android_client_info": {
+          "package_name": "com.example.khuloset_beta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP_H6SdUIc2E2wZldYGoxpDv_dcEVHgTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
