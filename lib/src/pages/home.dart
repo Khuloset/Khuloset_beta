@@ -262,7 +262,7 @@ class Home extends StatelessWidget {
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 2,
         mainAxisSpacing: 10,
-        crossAxisSpacing: 2,
+        crossAxisSpacing: 0,
         childAspectRatio: 0.7,
       ),
       delegate: SliverChildBuilderDelegate(

@@ -2,6 +2,9 @@
 connectivity=/Users/gwshin/.pub-cache/hosted/pub.dev/connectivity-3.0.6/
 connectivity_for_web=/Users/gwshin/.pub-cache/hosted/pub.dev/connectivity_for_web-0.4.0+1/
 connectivity_macos=/Users/gwshin/.pub-cache/hosted/pub.dev/connectivity_macos-0.2.1+2/
+firebase_core=/Users/gwshin/.pub-cache/hosted/pub.dev/firebase_core-1.24.0/
+firebase_core_web=/Users/gwshin/.pub-cache/hosted/pub.dev/firebase_core_web-1.7.3/
+firebase_database=/Users/gwshin/.pub-cache/hosted/pub.dev/firebase_database-7.2.2/
 flutter_keyboard_visibility=/Users/gwshin/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility-5.4.1/
 flutter_keyboard_visibility_linux=/Users/gwshin/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_linux-1.0.0/
 flutter_keyboard_visibility_macos=/Users/gwshin/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_macos-1.0.0/
