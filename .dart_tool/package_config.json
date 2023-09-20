@@ -104,6 +104,36 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "firebase_core",
+      "rootUri": "file:///Users/gwshin/.pub-cache/hosted/pub.dev/firebase_core-1.24.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_core_platform_interface",
+      "rootUri": "file:///Users/gwshin/.pub-cache/hosted/pub.dev/firebase_core_platform_interface-4.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "firebase_core_web",
+      "rootUri": "file:///Users/gwshin/.pub-cache/hosted/pub.dev/firebase_core_web-1.7.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.16"
+    },
+    {
+      "name": "firebase_database",
+      "rootUri": "file:///Users/gwshin/.pub-cache/hosted/pub.dev/firebase_database-7.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "firebase_database_platform_interface",
+      "rootUri": "file:///Users/gwshin/.pub-cache/hosted/pub.dev/firebase_database_platform_interface-0.0.1+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter",
       "rootUri": "file:///Users/gwshin/flutter/packages/flutter",
       "packageUri": "lib/",
@@ -216,6 +246,12 @@
       "rootUri": "file:///Users/gwshin/.pub-cache/hosted/pub.dev/hive_flutter-1.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "js",
+      "rootUri": "file:///Users/gwshin/.pub-cache/hosted/pub.dev/js-0.6.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
     },
     {
       "name": "lints",
@@ -494,7 +530,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-09-13T02:37:30.128068Z",
+  "generated": "2023-09-13T11:19:50.810567Z",
   "generator": "pub",
   "generatorVersion": "3.1.0"
 }
