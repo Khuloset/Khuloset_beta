@@ -11,7 +11,9 @@ class Home extends StatelessWidget {
 
   Future<String?> getImageUrl() async {
     await Firebase.initializeApp();
-    final Reference storageReference = FirebaseStorage.instance.ref().child('gs://khuloset-beta-123.appspot.com/images/1.jpg');
+    final Reference storageReference = FirebaseStorage.instance
+        .ref()
+        .child('gs://khuloset-beta-123.appspot.com/images/1.jpg');
     try {
       final imageUrl = await storageReference.getDownloadURL();
       return imageUrl;
@@ -168,7 +170,8 @@ class Home extends StatelessWidget {
                             height: double.infinity,
                             decoration: BoxDecoration(
                               image: DecorationImage(
-                                image: NetworkImage(imageUrl), // Firebase Storage에서 가져온 이미지 URL 사용
+                                image: NetworkImage(
+                                    imageUrl), // Firebase Storage에서 가져온 이미지 URL 사용
                                 fit: BoxFit.fitHeight,
                               ),
                             ),
